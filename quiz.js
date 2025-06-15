@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Compare the user's answer with the correct answer and provide feedback.
         if (userAnswer === correctAnswer) {
-            feedbackElement.textContent = 'Correct! Well done!';
+            feedbackElement.textContent = 'Correct! Well done.';
             feedbackElement.style.color = '#28a745'; // Green color for success.
         } else {
             feedbackElement.textContent = "That's incorrect. Try again!";
